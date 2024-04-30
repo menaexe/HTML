@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Patient Registration Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <center>
+                <font color="red">
+                    APOLLO HOSPITALS
+                </font>
+            </center>
+        </h1>
+        <b>
+            <p align="right">
+                <a href="aboutapollo.html">About Apollo</a>|
+                <a href="apollobranches.html">Apollo Branches</a>|
+                <a href="apolloservices.html">Apollo Services</a>|
+                <a href="apollocontact.html">Apollo Contact</a>|
+                <a href="apollodoctor.html"> Our Doctors</a>|
+                <a href="apollolabs.html"> Our labs</a>|
+                <a href="apollodoctorsignup.html">Doctor SignUp</a>|
+                <a href="apollodoctorsignin.html">Doctor SignIn</a>|
+                <a href="#">Patient SignUp</a>
+
+            </p>
+        </b>
+    </header>
+    <hr color="black">
+    <form style="background-color: silver;" method="get" name="form1" action="Server1Url1">
+        <table method="get" name="form1" action="Server1Url1" align="center">
+            <caption> <h2>
+                Patient Registration Form
+            </h2></caption>
+            <tr>
+                <td>
+                    <label for="id1">Patient's Name*</label>
+                </td>
+                <td>
+                    <input type="text" id="id1" name="name1" placeholder="First"> <input type="text" name="name1" placeholder="Last">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender*</td>
+                <td>
+                    <input type="radio" value="male" name="gender" id="male1" >
+                    <label for="male1">Male</label>
+                    <input type="radio" value="Female" name="gender" id="Female1">
+                    <label for="Female1">Female</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id2">Phone*</label>
+
+                </td>
+                <td><input type="number" name="number" id="id2" placeholder=" #### ### ### ###"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id3">Date of Birth*</label>
+
+                </td>
+                <td><input type="date" name="date" id="id3"></td>
+            </tr>
+            <tr>
+                <td><label >Marital Status*</label></td>
+                <td> <input type="radio" name="marital-status" value="Single" id="single1">
+                    <label for="single1">Single</label>
+                    <input type="radio" name="marital-status" value="Married" id="Married2">
+                    <label for="Married2">Married</label>
+                    <input type="radio" name="marital-status" value="Divorced" id="Divorced1">
+                    <label for="Divorced1">Divorced</label>
+                    <input type="radio" name="marital-status" value="Widow" id="Widow1">
+                    <label for="Widow1">Widow</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id4">Patient's Address*</label>
+                </td>
+                <td>
+                    <input type="text" name="patient's-address" id="id4" placeholder=" Street Address" > <br> <br>
+                    <input type="text" name="patient's-address" id="id4" placeholder="City"> &nbsp;
+                    <input type="text" name="patient's-address" id="id4" placeholder="State"> <br><br>
+                    <input type="number" name="patient's-address" id="id4" placeholder="Postal/Zip Code">
+                    <select name="" id="">
+                        <option value="" selected disabled hidden>Country</option>
+                        <option value="India">India</option>
+                        <option value="America">America</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="Russia"> Russia</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id5">Insurance Name*</label></td>
+                <td> <input type="text" name="insurance-name" id="id5"></td>
+            </tr>
+            <tr>
+                <td >
+                    <label>Past medical history*</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="pmh" value="Anemia"> <label >Anemia</label> <br>
+                    <input type="checkbox" name="pmh" value="Asthma"> <label >Asthma</label> <br>
+                    <input type="checkbox" name="pmh" value="Bronchitis"> <label >Bronchitis</label> <br>
+                    <input type="checkbox" name="pmh" value="Chickenpox"> <label >Chickenpox</label> <br>
+                    <input type="checkbox" name="pmh" value="Diabetes"> <label >Diabetes</label> <br>
+                    <input type="checkbox" name="pmh" value="Pneumonia"> <label >Pneumonia</label> <br>
+                    <input type="checkbox" name="pmh" value="Other"> <label >Other</label> <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" bgcolor="black">
+                    <input type="submit" value="REGISTER" >
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+<hr color="black">
+<footer>
+    <h3>
+        <center>
+            <font color="red"><u>Copyright@360digrii</u></font>
+        </center>
+    </h3>
+</footer>
+
+
+
+</html>
